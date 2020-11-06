@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		ЗСУ
+	</title>
+</head>
+<body>
+	<div class="mil">
+		<h3>
+			Хочу приєднаися до лав ЗСУ
+		</h3>
+		<form name="recruit" method="POST" action="">
+			<fieldset>
+				<legend>
+					Інформація про рекрутера
+				</legend>
+				<input type="text" name="name" placeholder="Імя">
+				<input type="text" name="name_your_fahter" placeholder="Побатькові">
+				<input type="text" name="second_name" placeholder="Прізвище">
+				<br>
+				<br>
+				<label>
+					Оберіть позивний на період служби
+				</label>
+				<input type="text" name="name" value="Сокира">
+				<legend>
+					Дата народження
+				</legend>
+				<input placeholder="Дата народження" type="date" id="date" name="date">
+				<br>
+				<br>
+				<label>
+					Чи служив раніше
+				</label>
+				<select name="Has served before">
+					<option value="Не служив">
+						Не служив
+					</option>
+					<option value="Срочна служба">
+						Срочна служба
+					</option>
+					<option value="Служба за контрактом">
+						Служба за контрактом
+					</option>
+					<option value="Був мобілізований">
+						Був мобілізований
+					</option>
+					<option value="Служив в добровольчих батальйонах">
+						Служив в добровольчих батальйонах
+					</option>
+				</select>
+				<label>
+					Чи маєш бойовий досвід
+				</label>
+				<select name="combat experience">
+					<option value="Не маю">
+						Не маю
+					</option>
+					<option value="Воював проти РФ">
+						Воював проти РФ
+					</option>
+					<option value="Був миротворцем">
+						Був миротворцем
+					</option>
+					<option value="Був найманцем в інших країнах">
+						Був найманцем в інших країнах
+					</option>
+				</select>
+				<br>
+				<br>
+				<label>
+					Ваша елктронна пошта
+				</label>
+				<input type="email" name="mail">
+				<label>
+					Завантажте рекомендаційний лист вашого керівника
+				</label>
+				<input type="file" name="file">
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>
+					Оберіть контракт який хочете заключити
+				</legend>
+				<label>
+					6 місяців
+				</label>
+				<input type="radio" name="contract" value="6 місяців">
+				<label>
+					12 місяців
+				</label>
+				<input type="radio" name="contract" value="12 місяців">
+				<label>
+					3 роки
+				</label>
+				<input type="radio" name="contract" value="3 роки">
+				<label>
+					5 років
+				</label>
+				<input type="radio" name="contract" value="5 років">
+				<label>
+					До закінчення особливого періоду
+				</label>
+				<input type="radio" name="contract" value="До закінчення особливого періоду">
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>
+					Якою зброєю вмієш користуватися
+				</legend>
+				<label>
+					АК
+				</label>
+				<input type="checkbox" name="weapon" value="АК">
+				<label>
+					ПК
+				</label>
+				<input type="checkbox" name="weapon" value="ПК">
+				<label>
+					СВД
+				</label>
+				<input type="checkbox" name="weapon" value="СВД">
+				<label>
+					АГС
+				</label>
+				<input type="checkbox" name="weapon" value="АГС">
+				<label>
+					ДШК
+				</label>
+				<input type="checkbox" name="weapon" value="ДШК">
+				<label>
+					Штик ніж
+				</label>
+				<input type="checkbox" name="weapon" value="Штик ніж">
+			</fieldset>
+			<fieldset>
+				<legend>
+					Мотиваційний лист
+				</legend>
+				<textarea maxlength="500" title="Тут має бути: вступ, мотивацію, висновок! І не більше 500 символів">
+				</textarea>
+			</fieldset>
+			<button type="submit" value="send">
+				Відправити данні
+			</button>
+		</form>
+	</div>
+</body>
+</html>

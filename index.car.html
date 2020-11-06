@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Car
+	</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<div class="div-law-car">
+		<h1>
+			Cars for veterans
+		</h1>
+		<p class="lw-car">
+			Злчинна влада прийняла законопроект №3567 який дозволяє учасникам бойових дій ввозити авто з Європи без сплати митних зборів.
+		</p>
+	</div>
+	<div class="div-form-cr">
+		<form name="Choose-a-car" method="post">
+			<fieldset>
+				<legend>
+					Choose a car
+				</legend>
+				<label>
+					Тип машини
+				</label>
+				<select name="type-of-car" multiple size="2">
+					<option value="Седан">
+						Седан
+					</option>
+					<option value="Кабріолет">
+						Кабріолет
+					</option>
+					<option value="Лімузин">
+						Лімузин
+					</option>
+					<option value="Хетчбек">
+						Хетчбек
+					</option>
+				</select>
+				<label>
+					Марка автомобіля
+				</label>
+				<select name="brand-of-car"multiple size="2">
+					<option value="Fiat">
+						Fiat
+					</option>
+					<option value="Skoda">
+						Skoda
+					</option>
+					<option value="Volvo">
+						Volvo
+					</option>
+					<option value="Alfa Romeo">
+						Alfa Romeo
+					</option>
+					<option value="Ferrari">
+						Ferrari
+					</option>
+				</select>
+				<label>
+					Країна імпортер
+				</label>
+				<select name="country" multiple size="2">
+					<option value="Польша">
+						Польша
+					</option>
+					<option value="Литва">
+						Литва
+					</option>
+					<option value="Чехія">
+						Чехія
+					</option>
+					<option value="Німечина">
+						Німечина
+					</option>
+					<option value="Угорщина">
+						Угорщина
+					</option>
+					<option value="Франція">
+						Франція
+					</option>
+					<option value="Італія">
+						Італія
+					</option>
+				</select>
+				<br>
+				<legend>
+					Особисті данні
+				</legend>
+				<input type="text" name="name" placeholder="Імя">
+				<input type="text" name="name_your_fahter" placeholder="Побатькові">
+				<input type="text" name="second_name" placeholder="Прізвище">
+				<br>
+				<legend>
+					Дата народження
+				</legend>
+				<input placeholder="Дата народження" type="date" id="date" name="date">
+				<br>
+				<label>
+					Ваша елктронна пошта
+				</label>
+				<input type="email" name="mail" placeholder="email">
+				<label>
+					Номер телефону
+				</label>
+				<input type="text" name="nuber-phone" placeholder="+380">
+				<br>
+				<br>
+				<legend>
+					Чи користувалися Ви ранiше правом на безмитне ввезення авто?
+				</legend>
+				<input type="radio" name="question" value="yes">
+				<label>
+					Так
+				</label>
+				<input type="radio" name="question" value="no">
+				<label>
+					Ні
+				</label>
+				<br>
+				<br>
+				<label>
+					Завантажте фотографію посвідчення УБД
+				</label>
+				<input type="file" name="file">
+			</fieldset>
+			<button type="reset" value="send">
+				Скинути данні
+			</button>
+			<button type="submit" value="send">
+				Відправити данні
+			</button>
+		</form>
+	</div>
+</body>
+</html>
